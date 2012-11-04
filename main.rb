@@ -3,6 +3,10 @@ require 'sinatra'
 
 set :public_folder, 'public'
 
+get '/' do
+  redirect 'index.html'
+end
+
 get '/1' do
   redirect '/1-videos/index.html'
 end

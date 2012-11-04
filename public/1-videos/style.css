@@ -1,11 +1,11 @@
 body {
   font-family: "Lato", Helvetica Neue, sans-serif;
-  background: #999999;
+  background: #D4A017;
   padding: 0px;
   margin: 0px;
 }
 #page-wrap {
-  width: 900px;
+  width: 960px;
   margin: 0 auto;
   background: #fff;
 }
@@ -22,11 +22,20 @@ body {
 header {
   padding: 20px;
   margin: 0px;
+  clear: both;
 }
 header h1 {
   float: left;
-  width: 200px;
-  margin-bottom: 0px;
+  width: 290px;
+  margin: 0px;
+}
+header h1 img {
+  width: 290px;
+  height: 100px;
+}
+header form {
+  float: right;
+  width: 418px;
 }
 
 #like-us {
@@ -45,89 +54,89 @@ header h1 {
 nav ul#menu {
   font-size:14px;
   text-align:center;
-  width:600px;
-  height:40px;
+  height: 40px;
   margin-top: 30px;
   list-style: none;
-  float: right;
-  width: 600px;
+  padding: 0px;
 }
 
 ul#menu li {
   float: left;
-  width: 150px;
+  width: 120px;
 }
 
 ul#menu li a {
   display: block;
   float: left;
-  width: 150px;
-  line-height: 45px;
-  height: 45px;
+  width: 120px;
+  line-height: 40px;
+  height: 40px;
   text-decoration: none;
   color: #ffffff;
-  background: #336699;
-  border: 1px solid #999999;
+  background: #D4A017;
+  border: 1px solid #B22222;
 }
 
-nav ul#menu li.active a {
-  background: #999999;
+nav ul#menu li.active a, nav ul#menu li a:hover {
+  background: #B22222;
 }
 
 aside {
-  margin-top: 70px;
+  margin-top: 10px;
   text-align: center;
-  float: left;
+  float: right;
   width: 300px;
-  background: #CCCCCC;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  border: 1px solid #336699;
+  padding-top: 10px;
 }
 
 aside div {
   padding: 10px;
 }
-aside div:first-child {
-  border-bottom: 1px solid #336699;
+aside img {
+  border: 1px solid #B22222;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
-aside div.introduction {
-  padding-top: 62px;
-  padding-bottom: 42px;
+aside ul {
+  list-style: none;
+  text-align: left;
 }
-
 article {
-  width: 350px;
-  float: right;
+  width: 500px;
+  padding: 10px;
+  float: left;
 }
 article h2 {
   margin-left: 24px;
 }
 article img {
-  height: 150px;
-  width: 150px;
+  width: 220px;
+  margin-right: 10px;
   float: left;
-  margin-left: 24px;
-  margin-bottom: 24px;
 }
-
-.latest {
-  margin-bottom: 20px;
-  margin-top: 30px;
-}
-.latest img {
-  height: 150px;
-  width: 150px;
-  margin-right: 24px;
-  margin-top: 20px;
-  border: 0px;
-}
-.latest img:last-child {
-  margin-right: 0px;
+footer, footer img {
+  margin: 0px;
+  padding: 0px;
 }
 
 .clear {
   clear: both;
+}
+.poll {
+  margin-top: 40px;
+}
+
+input[type='submit'] {
+  background: #B22222;
+  width: 50px;
+  height: 20px;
+  border: 0px;
+  color: #D4A017;
+}
+
+input[type='text'], input[type='password'] {
+  border: 1px solid #B22222;
 }
