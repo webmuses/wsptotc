@@ -1,0 +1,142 @@
+body {
+  font-family: "Lato", Helvetica Neue, sans-serif;
+  background: #D4A017;
+  padding: 0px;
+  margin: 0px;
+}
+#page-wrap {
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+}
+#content {
+ padding: 20px;
+ clear: both;
+}
+
+#logo {
+  line-height: 130%;
+  font-size: 30px;
+}
+
+header {
+  padding: 20px;
+  margin: 0px;
+  clear: both;
+}
+header h1 {
+  float: left;
+  width: 290px;
+  margin: 0px;
+}
+header h1 img {
+  width: 290px;
+  height: 100px;
+}
+header form {
+  float: right;
+  width: 418px;
+}
+
+#like-us {
+  line-height: 130%;
+  font-size: 18px;
+  width: 300px;
+  height: 23px;
+  float: right;
+  text-align: right;
+}
+
+#like-us .facebook {
+ color: #0000ff;
+}
+
+nav ul#menu {
+  font-size:14px;
+  text-align:center;
+  height: 40px;
+  margin-top: 30px;
+  list-style: none;
+  padding: 0px;
+}
+
+ul#menu li {
+  float: left;
+  width: 120px;
+}
+
+ul#menu li a {
+  display: block;
+  float: left;
+  width: 120px;
+  line-height: 40px;
+  height: 40px;
+  text-decoration: none;
+  color: #ffffff;
+  background: #D4A017;
+  border: 1px solid #B22222;
+}
+
+nav ul#menu li.active a, nav ul#menu li a:hover {
+  background: #B22222;
+}
+
+aside {
+  margin-top: 10px;
+  text-align: center;
+  float: right;
+  width: 300px;
+  padding-top: 10px;
+}
+
+aside div {
+  padding: 10px;
+}
+aside img {
+  border: 1px solid #B22222;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+aside ul {
+  list-style: none;
+  text-align: left;
+}
+article {
+  width: 500px;
+  padding: 10px;
+  float: left;
+}
+article h2 {
+  margin-left: 24px;
+}
+article img {
+  width: 220px;
+  margin-right: 10px;
+  float: left;
+}
+footer, footer img {
+  margin: 0px;
+  padding: 0px;
+}
+
+.clear {
+  clear: both;
+}
+.poll {
+  margin-top: 40px;
+}
+
+input[type='submit'] {
+  background: #B22222;
+  width: 50px;
+  height: 20px;
+  border: 0px;
+  color: #D4A017;
+}
+
+input[type='text'], input[type='password'] {
+  border: 1px solid #B22222;
+}

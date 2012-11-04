@@ -28,7 +28,7 @@ get '/1/old' do
 end
 
 get '/2/old' do
-  redirect '/2-harrypotter/mockoup/index.html'
+  redirect '/2-harrypotter/mockup/index.html'
 end
 
 get '/3/old' do

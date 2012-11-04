@@ -5,7 +5,7 @@ body {
   margin: 0px;
 }
 #page-wrap {
-  width: 960px;
+  width: 900px;
   margin: 0 auto;
   background: #fff;
 }
@@ -25,21 +25,32 @@ header {
 }
 header h1 {
   float: left;
-  width: 110px;
+  width: 200px;
   margin-bottom: 0px;
 }
-header form {
+
+#like-us {
+  line-height: 130%;
+  font-size: 18px;
+  width: 300px;
+  height: 23px;
   float: right;
-  width: 418px;
+  text-align: right;
+}
+
+#like-us .facebook {
+ color: #0000ff;
 }
 
 nav ul#menu {
-  font-size: 14px;
-  text-align: center;
-  height: 45px;
+  font-size:14px;
+  text-align:center;
+  width:600px;
+  height:40px;
   margin-top: 30px;
   list-style: none;
   float: right;
+  width: 600px;
 }
 
 ul#menu li {
@@ -59,7 +70,7 @@ ul#menu li a {
   border: 1px solid #999999;
 }
 
-nav ul#menu li.active a, nav ul#menu li a:hover {
+nav ul#menu li.active a {
   background: #999999;
 }
 
@@ -88,7 +99,7 @@ aside div.introduction {
 }
 
 article {
-  width: 530px;
+  width: 350px;
   float: right;
 }
 article h2 {
@@ -109,22 +120,14 @@ article img {
 .latest img {
   height: 150px;
   width: 150px;
+  margin-right: 24px;
   margin-top: 20px;
   border: 0px;
+}
+.latest img:last-child {
+  margin-right: 0px;
 }
 
 .clear {
   clear: both;
-}
-
-input[type='submit'] {
-  background: #999999;
-  width: 50px;
-  height: 20px;
-  border: 0px;
-  color: #fff;
-}
-
-input[type='text'], input[type='password'] {
-  border: 1px solid #999999;
 }
