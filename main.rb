@@ -4,7 +4,7 @@ require 'sinatra'
 set :public_folder, 'public'
 
 get '/' do
-  redirect 'index.html'
+  redirect '/index.html'
 end
 
 get '/1' do
