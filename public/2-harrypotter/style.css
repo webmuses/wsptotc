@@ -7,6 +7,8 @@ body {
 #page-wrap {
   width: 960px;
   margin: 0 auto;
+  padding: 0px;
+  overflow: hidden;
   background: #fff;
 }
 #content {
@@ -35,7 +37,7 @@ header h1 img {
 }
 header form {
   float: right;
-  width: 418px;
+  width: 420px;
 }
 
 nav ul#menu {
@@ -91,15 +93,15 @@ aside ul {
   list-style: none;
   text-align: left;
 }
-article {
+section {
   width: 500px;
   padding: 10px;
   float: left;
 }
-article h2 {
+section h2 {
   margin-left: 24px;
 }
-article img {
+section img {
   width: 220px;
   margin-right: 10px;
   float: left;

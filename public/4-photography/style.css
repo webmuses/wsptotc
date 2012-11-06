@@ -8,6 +8,7 @@ body {
   width: 960px;
   margin: 0 auto;
   background: #fff;
+  overflow: hidden;
 }
 #content {
  padding: 20px;
@@ -87,14 +88,14 @@ aside div.introduction {
   padding-bottom: 42px;
 }
 
-article {
+section {
   width: 530px;
   float: right;
 }
-article h2 {
+section h2 {
   margin-left: 24px;
 }
-article img {
+section img {
   height: 150px;
   width: 150px;
   float: left;
@@ -127,4 +128,10 @@ input[type='submit'] {
 
 input[type='text'], input[type='password'] {
   border: 1px solid #999999;
+}
+
+footer, footer img {
+  margin: 0px;
+  padding: 0px;
+  height: 100px;
 }

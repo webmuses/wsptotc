@@ -1,16 +1,18 @@
 body {
   font-family: "Lato", Helvetica Neue, sans-serif;
-  background: #D4A017;
+  background: #ccc;
   padding: 0px;
   margin: 0px;
 }
 #page-wrap {
-  width: 960px;
+  width: 1000px;
   margin: 0 auto;
   background: #fff;
+  overflow: hidden;
 }
 #content {
  padding: 20px;
+ margin-top: 60px;
  clear: both;
 }
 
@@ -35,7 +37,8 @@ header h1 img {
 }
 header form {
   float: right;
-  width: 418px;
+  width: 430px;
+  margin-top: 40px;
 }
 
 #like-us {
@@ -50,30 +53,30 @@ header form {
 #like-us .facebook {
  color: #0000ff;
 }
-
 nav ul#menu {
+  margin: 0px;
   font-size:14px;
   text-align:center;
   height: 40px;
-  margin-top: 30px;
+  float: right;
   list-style: none;
   padding: 0px;
 }
 
 ul#menu li {
   float: left;
-  width: 120px;
+  width: 150px;
 }
 
 ul#menu li a {
   display: block;
   float: left;
-  width: 120px;
+  width: 100%;
   line-height: 40px;
   height: 40px;
   text-decoration: none;
   color: #ffffff;
-  background: #D4A017;
+  background: #999;
   border: 1px solid #B22222;
 }
 
@@ -82,44 +85,42 @@ nav ul#menu li.active a, nav ul#menu li a:hover {
 }
 
 aside {
-  margin-top: 10px;
+  margin-top: 100px;
+  height: 360px;
   text-align: center;
   float: right;
-  width: 300px;
-  padding-top: 10px;
-}
-
-aside div {
-  padding: 10px;
-}
-aside img {
-  border: 1px solid #B22222;
-  padding: 10px;
+  width: 250px;
+  padding: 10px 0px 0px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  background: #ccc;
 }
 
-aside ul {
-  list-style: none;
-  text-align: left;
-}
-article {
-  width: 500px;
-  padding: 10px;
+section {
+  width: 350px;
+  padding: 10px 0px;
   float: left;
+  margin: 0px;
+  margin-top: 40px;
+  height: 180px;
 }
-article h2 {
-  margin-left: 24px;
+section h3 {
+  margin-top: 0px;
 }
-article img {
-  width: 220px;
+
+section div {
+  float: left;
+  width: 180px;
+}
+section img {
   margin-right: 10px;
   float: left;
 }
 footer, footer img {
   margin: 0px;
   padding: 0px;
+  height: 100px;
 }
 
 .clear {
@@ -130,13 +131,32 @@ footer, footer img {
 }
 
 input[type='submit'] {
-  background: #B22222;
+  float: right;
+  background: #AF2B26;
   width: 50px;
   height: 20px;
   border: 0px;
-  color: #D4A017;
+  color: #fff;
 }
 
 input[type='text'], input[type='password'] {
   border: 1px solid #B22222;
+}
+#content ul {
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+}
+.big {
+  margin-left: 70px;
+}
+.top-places {
+  border-bottom: 5px solid #AF2B26;
+  padding-bottom: 40px;
+}
+.previews {
+  margin-top: 10px;
+  padding-bottom: 40px;
+  float: left;
+  width:  700px;
 }
