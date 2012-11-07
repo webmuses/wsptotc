@@ -1,0 +1,148 @@
+body {
+  font-family: "Lato", Helvetica Neue, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background: #FFF7EF;
+}
+.page-wrap {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0px;
+  overflow: hidden;
+}
+#content {
+ padding: 20px;
+ clear: both;
+}
+
+#logo {
+  line-height: 130%;
+  font-size: 30px;
+}
+
+header {
+  margin: 0px;
+  clear: both;
+}
+header div.top {
+  background: #FFC3CE;
+  padding: 20px;
+  height: 100px;
+}
+header div.top p {
+  width: 300px;
+  float: left;
+}
+header div.top div {
+  width: 1000px;
+  margin: 0 auto;
+}
+header h1 {
+  float: left;
+  width: 290px;
+  margin: 0px;
+}
+header h1 img {
+  width: 290px;
+  height: 100px;
+}
+header form {
+  float: right;
+  width: 200px;
+  text-align: right;
+}
+
+nav ul#menu {
+  font-size:14px;
+  text-align:center;
+  height: 40px;
+  margin-top: 10px;
+  list-style: none;
+  padding: 0px;
+}
+
+ul#menu li {
+  float: left;
+  width: 199px;
+}
+
+ul#menu li a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  float: left;
+  width: 100%;
+  line-height: 40px;
+  height: 40px;
+  text-decoration: none;
+  color: #444;
+  background: #FFC3CE;
+  border: 1px solid #999;
+  border-bottom: 0px;
+}
+
+nav ul#menu li.active a, nav ul#menu li a:hover {
+  background: #FFF7EF;
+}
+
+aside {
+  margin-top: 10px;
+  text-align: center;
+  float: right;
+  width: 300px;
+  padding-top: 10px;
+}
+
+aside div {
+  padding: 10px;
+}
+aside img {
+  border: 1px solid #B22222;
+  padding: 10px;
+}
+
+aside ul {
+  list-style: none;
+  text-align: left;
+}
+section {
+  padding: 10px;
+  margin-bottom: 40px;
+  clear: both;
+}
+section h2 {
+  margin-left: 24px;
+}
+section img {
+  float: left;
+}
+section  p {
+  width: 500px;
+  float: right;
+  margin-top: 0px;
+}
+footer, footer img {
+  margin: 0px;
+  padding: 0px;
+  height: 100px;
+}
+
+.clear {
+  clear: both;
+}
+.poll {
+  margin-top: 40px;
+}
+
+input[type='submit'] {
+  background: #B22222;
+  width: 50px;
+  height: 20px;
+  border: 0px;
+  color: #D4A017;
+}
+
+input[type='text'], input[type='password'] {
+  border: 1px solid #B22222;
+}

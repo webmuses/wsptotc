@@ -36,7 +36,7 @@ get '/2/old' do
 end
 
 get '/3/old' do
-  redirect '/3-donuts/index.html'
+  redirect '/3-donuts/mockup/index.html'
 end
 
 get '/4/old' do
