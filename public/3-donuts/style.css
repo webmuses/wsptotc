@@ -1,3 +1,4 @@
+* {margin: 0px; padding: 0px}
 body {
   font-family: "Lato", Helvetica Neue, sans-serif;
   padding: 0px;
@@ -7,7 +8,7 @@ body {
 .page-wrap {
   width: 1000px;
   margin: 0 auto;
-  padding: 0px;
+  padding-top: 30px;
   overflow: hidden;
 }
 #content {
@@ -79,7 +80,6 @@ ul#menu li a {
   color: #444;
   background: #FFC3CE;
   border: 1px solid #999;
-  border-bottom: 0px;
 }
 
 nav ul#menu li.active a, nav ul#menu li a:hover {
@@ -102,25 +102,34 @@ aside img {
   padding: 10px;
 }
 
-aside ul {
+aside ul, section ul {
   list-style: none;
   text-align: left;
 }
 section {
   padding: 10px;
   margin-bottom: 40px;
-  clear: both;
+  width: 480px;
+  float: left;
+}
+section form {
+  margin-left: 50px;
 }
 section h2 {
   margin-left: 24px;
+  margin-bottom: 20px;
 }
 section img {
   float: left;
 }
+section p:first-of-type {
+  margin-top: 40px;
+}
 section  p {
-  width: 500px;
-  float: right;
-  margin-top: 0px;
+  margin-top: 20px;
+}
+section  li {
+  margin-top: 20px;
 }
 footer, footer img {
   margin: 0px;
@@ -136,13 +145,13 @@ footer, footer img {
 }
 
 input[type='submit'] {
-  background: #B22222;
+  background: #999999;
   width: 50px;
   height: 20px;
   border: 0px;
-  color: #D4A017;
+  color: #fff;
 }
 
 input[type='text'], input[type='password'] {
-  border: 1px solid #B22222;
+  border: 1px solid #999999;
 }

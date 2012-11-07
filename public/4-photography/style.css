@@ -1,3 +1,4 @@
+* {margin: 0px; padding: 0px}
 body {
   font-family: "Lato", Helvetica Neue, sans-serif;
   background: #999999;
@@ -88,12 +89,25 @@ aside div.introduction {
   padding-bottom: 42px;
 }
 
+aside ul {
+  list-style: none;
+  padding-left: 50px;
+  margin-top: 10px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+aside h3 {
+  margin-top: 20px;
+}
+
 section {
   width: 530px;
   float: right;
 }
 section h2 {
   margin-left: 24px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 section img {
   height: 150px;
@@ -121,6 +135,7 @@ section img {
 input[type='submit'] {
   background: #999999;
   width: 50px;
+  float: right;
   height: 20px;
   border: 0px;
   color: #fff;
