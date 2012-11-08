@@ -153,6 +153,7 @@ aside h3 {
 section.right {
   width: 530px;
   float: right;
+  margin-right: 30px;
 }
 
 section h2 {

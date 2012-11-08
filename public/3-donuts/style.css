@@ -76,6 +76,7 @@ input[type='submit'] {
 
 input[type='text'], input[type='password'] {
   border: 1px solid #999999;
+  margin-bottom: 3px;
 }
 
 label {
@@ -145,11 +146,12 @@ section img {
 }
 
 section p:first-of-type {
-  margin-top: 40px;
+  margin-top: 45px;
 }
 
 section  p {
-  margin-top: 20px;
+  margin-top: 10px;
+  line-height: 20px;
 }
 
 section  li {

@@ -93,11 +93,11 @@ input[type='text'], input[type='password'] {
 }
 
 label {
-  margin-right: 3px;
+  margin-right: 2px;
 }
 
 header input + label {
-  margin-left: 4px;
+  margin-left: 6px;
 }
 
 /* Page content */
