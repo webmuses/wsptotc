@@ -1,55 +1,44 @@
-* {margin: 0px; padding: 0px}
+/* General */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
-  font-family: "Lato", Helvetica Neue, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background: #ccc;
   padding: 0px;
   margin: 0px;
 }
+
+.clear {
+  clear: both;
+}
+
 #page-wrap {
   width: 1000px;
   margin: 0 auto;
   background: #fff;
   overflow: hidden;
 }
-#content {
- padding: 20px;
- margin-top: 60px;
- clear: both;
-}
 
-#logo {
-  line-height: 130%;
-  font-size: 30px;
-}
+/* Header */
 
 header {
   padding: 20px;
   margin: 0px;
   clear: both;
 }
+
 header h1 {
   float: left;
   width: 290px;
   margin: 0px;
 }
-header form {
-  float: right;
-  width: 430px;
-  margin-top: 40px;
-}
 
-#like-us {
-  line-height: 130%;
-  font-size: 18px;
-  width: 300px;
-  height: 23px;
-  float: right;
-  text-align: right;
-}
+/* Main menu */
 
-#like-us .facebook {
- color: #0000ff;
-}
 nav ul#menu {
   margin: 0px;
   font-size:14px;
@@ -81,6 +70,72 @@ nav ul#menu li.active a, nav ul#menu li a:hover {
   background: #B22222;
 }
 
+/* Login form */
+
+header form {
+  float: right;
+  width: 400px;
+  margin-top: 40px;
+}
+
+input[type='submit'] {
+  float: right;
+  background: #AF2B26;
+  width: 50px;
+  height: 20px;
+  border: 0px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+input[type='text'], input[type='password'] {
+  border: 1px solid #B22222;
+}
+
+label {
+  margin-right: 3px;
+}
+
+header input + label {
+  margin-left: 4px;
+}
+
+/* Page content */
+
+#content {
+ padding: 20px;
+ margin-top: 55px;
+ clear: both;
+}
+
+/* Top content */
+
+.top-places {
+  height: 248px;
+  border-bottom: 5px solid #AF2B26;
+  padding-bottom: 40px;
+}
+
+.big {
+  margin-left: 70px;
+}
+
+/* Lists (i.e. links) */
+
+#content ul {
+  float: left;
+  width: 100px;
+  margin-left: 20px;
+}
+
+#content ul li {
+  list-style: none;
+  padding: 10px 0px;
+  text-align: left;
+}
+
+/* Sidebar */
+
 aside {
   margin-top: 60px;
   height: 380px;
@@ -94,6 +149,24 @@ aside {
   background: #ccc;
 }
 
+aside h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.poll {
+  margin-top: 20px;
+}
+
+/* Previews */
+
+.previews {
+  margin-top: 10px;
+  padding-bottom: 40px;
+  float: left;
+  width:  700px;
+}
+
 section {
   width: 350px;
   padding: 10px 0px;
@@ -102,12 +175,9 @@ section {
   margin-top: 40px;
   height: 180px;
 }
+
 section h3 {
   margin-bottom: 10px;
-}
-
-aside h4 {
-  margin-top: 40px;
 }
 
 section div {
@@ -121,52 +191,11 @@ section img {
   width: 150px;
   height: 150px;
 }
+
+/* Footer */
+
 footer, footer img {
   margin: 0px;
   padding: 0px;
   height: 100px;
-}
-
-.clear {
-  clear: both;
-}
-.poll {
-  margin-top: 40px;
-}
-
-input[type='submit'] {
-  float: right;
-  background: #AF2B26;
-  width: 50px;
-  height: 20px;
-  border: 0px;
-  color: #fff;
-}
-
-input[type='text'], input[type='password'] {
-  border: 1px solid #B22222;
-}
-#content ul {
-  float: left;
-  width: 100px;
-  margin-right: 20px;
-}
-#content ul li {
-  list-style: none;
-  padding: 10px 0px;
-}
-
-.big {
-  margin-left: 70px;
-}
-.top-places {
-  height: 248px;
-  border-bottom: 5px solid #AF2B26;
-  padding-bottom: 40px;
-}
-.previews {
-  margin-top: 10px;
-  padding-bottom: 40px;
-  float: left;
-  width:  700px;
 }
