@@ -1,10 +1,17 @@
-* {margin: 0px; padding: 0px}
+/* General */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
-  font-family: "Lato", Helvetica Neue, sans-serif;
+  font-family: 'Lato', Helvetica Neue, sans-serif;
   background: #D4A017;
   padding: 0px;
   margin: 0px;
 }
+
 #page-wrap {
   width: 960px;
   margin: 0 auto;
@@ -12,34 +19,60 @@ body {
   overflow: hidden;
   background: #fff;
 }
-#content {
- padding: 20px;
- clear: both;
+
+.clear {
+  clear: both;
 }
 
-#logo {
-  line-height: 130%;
-  font-size: 30px;
-}
+/* Header */
 
 header {
   padding: 20px;
   margin: 0px;
   clear: both;
 }
+
 header h1 {
   float: left;
   width: 290px;
   margin: 0px;
 }
+
 header h1 img {
   width: 290px;
   height: 100px;
 }
+
+/* Login form */
+
 header form {
   float: right;
-  width: 420px;
+  width: 405px;
 }
+
+input[type='submit'] {
+  float: right;
+  background: #B22222;
+  width: 60px;
+  height: 22px;
+  border: 0px;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+input[type='text'], input[type='password'] {
+  border: 1px solid #B22222;
+}
+
+label {
+  margin-right: 3px;
+}
+
+header input + label {
+  margin-left: 9px;
+}
+
+/* Main menu */
 
 nav ul#menu {
   font-size:14px;
@@ -71,17 +104,49 @@ nav ul#menu li.active a, nav ul#menu li a:hover {
   background: #B22222;
 }
 
+/* Page content */
+
+#content {
+ padding: 20px;
+ clear: both;
+}
+
+/* Main */
+
+section {
+  width: 540px;
+  padding: 10px;
+  float: left;
+}
+
+section h2 {
+  margin-left: 24px;
+}
+
+section img {
+  width: 220px;
+  margin-right: 10px;
+  float: left;
+}
+
+section p {
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+/* Sidebar */
+
 aside {
   margin-top: 10px;
   text-align: center;
   float: right;
   width: 300px;
-  padding-top: 10px;
 }
 
 aside div {
   padding: 10px;
 }
+
 aside img {
   border: 1px solid #B22222;
   padding: 10px;
@@ -93,41 +158,22 @@ aside img {
 aside ul {
   list-style: none;
   text-align: left;
+  margin-left: 60px;
 }
-section {
-  width: 500px;
-  padding: 10px;
-  float: left;
+
+aside ul li {
+  margin-top: 10px;
 }
-section h2 {
-  margin-left: 24px;
+
+.poll {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-section img {
-  width: 220px;
-  margin-right: 10px;
-  float: left;
-}
+
+/* Footer */
+
 footer, footer img {
   margin: 0px;
   padding: 0px;
   height: 100px;
-}
-
-.clear {
-  clear: both;
-}
-.poll {
-  margin-top: 40px;
-}
-
-input[type='submit'] {
-  background: #B22222;
-  width: 50px;
-  height: 20px;
-  border: 0px;
-  color: #D4A017;
-}
-
-input[type='text'], input[type='password'] {
-  border: 1px solid #B22222;
 }
