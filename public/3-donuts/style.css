@@ -78,6 +78,10 @@ input[type='text'], input[type='password'] {
   border: 1px solid #999999;
 }
 
+label {
+  margin-right: 3px;
+}
+
 /* Main menu */
 
 nav ul#menu {
