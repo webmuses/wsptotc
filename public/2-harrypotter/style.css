@@ -1,21 +1,21 @@
 /* General */
 
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: 'Lato', Helvetica Neue, sans-serif;
   background: #D4A017;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 #page-wrap {
   width: 960px;
   margin: 0 auto;
-  padding: 0px;
+  padding: 0;
   overflow: hidden;
   background: #fff;
 }
@@ -28,14 +28,14 @@ body {
 
 header {
   padding: 20px;
-  margin: 0px;
+  margin: 0;
   clear: both;
 }
 
 header h1 {
   float: left;
   width: 290px;
-  margin: 0px;
+  margin: 0;
 }
 
 header h1 img {
@@ -55,7 +55,7 @@ input[type='submit'] {
   background: #B22222;
   width: 60px;
   height: 22px;
-  border: 0px;
+  border: 0;
   color: #ffffff;
   margin-top: 8px;
 }
@@ -80,7 +80,7 @@ nav ul#menu {
   height: 40px;
   margin-top: 30px;
   list-style: none;
-  padding: 0px;
+  padding: 0;
 }
 
 ul#menu li {
@@ -173,7 +173,7 @@ aside ul li {
 /* Footer */
 
 footer, footer img {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   height: 100px;
 }
