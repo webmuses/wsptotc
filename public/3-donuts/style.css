@@ -9,7 +9,7 @@ body {
   font-family: "Lato", Helvetica Neue, sans-serif;
   padding: 0;
   margin: 0;
-  background: #FFF7EF;
+  background: #ff7075;
 }
 
 .page-wrap {
@@ -53,8 +53,7 @@ header h1 {
 }
 
 header h1 img {
-  width: 290px;
-  height: 100px;
+
 }
 
 /* Login form */
@@ -169,4 +168,14 @@ footer, footer img {
   margin: 0;
   padding: 0;
   height: 100px;
+}
+
+#donat{
+  width: 400px;
+}
+
+.welcome_text {
+
+  background: pink;
+  
 }

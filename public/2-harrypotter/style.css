@@ -34,13 +34,13 @@ header {
 
 header h1 {
   float: left;
-  width: 290px;
+  width: 400px;
   margin: 0;
 }
 
 header h1 img {
-  width: 290px;
-  height: 100px;
+  width: 400px;
+  height: 200px;
 }
 
 /* Login form */
@@ -102,6 +102,7 @@ ul#menu li a {
 
 nav ul#menu li.active a, nav ul#menu li a:hover {
   background: #B22222;
+  color:#D4A017;
 }
 
 /* Page content */
@@ -117,6 +118,7 @@ section {
   width: 540px;
   padding: 10px;
   float: left;
+  color: blue;
 }
 
 section h2 {
@@ -135,6 +137,10 @@ section p {
 }
 
 /* Sidebar */
+.small {
+  height: 40px;
+  width: 60px;
+}
 
 aside {
   margin-top: 10px;

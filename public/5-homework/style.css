@@ -5,7 +5,6 @@
 
 body {
   font-family: "Lato", Helvetica Neue, sans-serif;
-  background: #999999;
   padding: 0;
   margin: 0;
 }
@@ -14,7 +13,7 @@ body {
   overflow: hidden;
   width: 1000px;
   margin: 0 auto;
-  background: #fff;
+  background: #ff8080;
 }
 
 .clear {
@@ -53,13 +52,21 @@ header form {
 }
 
 input[type='submit'] {
-  background: #999999;
-  width: 50px;
+  background: #ff0000;
+  width: 65px;
   height: 20px;
   border: 0;
   color: #fff;
   float: right;
   margin-top: 5px;
+  margin-right: 5px;
+
+}
+
+input[type='submit']:hover {
+  border: 2px solid white;
+  color: brown;
+
 }
 
 input[type='text'], input[type='password'] {
@@ -99,12 +106,12 @@ ul#menu li a {
   height: 45px;
   text-decoration: none;
   color: #ffffff;
-  background: #ccc;
+  background: #ff1a1a;
   border: 1px solid #999999;
 }
 
 nav ul#menu li.active a, nav ul#menu li a:hover {
-  background: #999999;
+  background: #550000;
 }
 
 /* Sidebar */

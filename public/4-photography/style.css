@@ -7,15 +7,15 @@
 
 body {
   font-family: "Lato", Helvetica Neue, sans-serif;
-  background: #999999;
   padding: 0;
   margin: 0;
+  color: black;
+  background: #FFCC99;
 }
 
 #page-wrap {
   width: 960px;
   margin: 0 auto;
-  background: #fff;
   overflow: hidden;
 }
 
@@ -93,8 +93,13 @@ ul#menu li a {
   border: 1px solid #999999;
 }
 
-nav ul#menu li.active a, nav ul#menu li a:hover {
-  background: #999999;
+nav ul#menu li.active a{
+ background: #663300;
+
+}
+
+nav ul#menu li a:hover {
+  background: #CC9900;
 }
 
 /* Page content */
@@ -111,11 +116,11 @@ aside {
   text-align: center;
   float: left;
   width: 300px;
-  background: #CCCCCC;
+  background: #996633;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  border: 1px solid #336699;
+  border: 1px solid black;
 }
 
 aside div {
@@ -165,6 +170,8 @@ section h2 {
 section p {
   margin-bottom: 10px;
   line-height: 20px;
+  color: #663300;
+
 }
 
 section img {

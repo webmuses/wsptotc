@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background: #ccc;
+  background:;
   padding: 0;
   margin: 0;
 }
@@ -19,7 +19,7 @@ body {
 #page-wrap {
   width: 1000px;
   margin: 0 auto;
-  background: #fff;
+  background:;
   overflow: hidden;
 }
 
@@ -37,6 +37,12 @@ header h1 {
   margin: 0;
 }
 
+header h1 img{
+  float: left;
+  width: 200px;
+  height:100px; 
+  margin: 0;
+}
 /* Main menu */
 
 nav ul#menu {
@@ -112,9 +118,14 @@ header input + label {
 
 .top-places {
   height: 248px;
-  border-bottom: 5px solid #AF2B26;
+  border-bottom: 5px solid #9dd4ff;
   padding-bottom: 40px;
 }
+
+.top-places img{
+   width: 270px;
+   height: 250px;
+ }
 
 .big {
   margin-left: 70px;
