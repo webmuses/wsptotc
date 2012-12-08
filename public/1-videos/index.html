@@ -5,13 +5,23 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
   <link href="http://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="style.css" type="text/css"/>
+  <link rel="stylesheet" type="text/css" href="jquery-lightbox-0.5/css/jquery.lightbox-0.5.css" media="screen" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery-lightbox-0.5/js/jquery.lightbox-0.5.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(function() {
+         $('a.gallery').lightBox({fixedNavigation:true});
+      });
+    });
+  </script>
+</head>
 </head>
 <body class="preview">
   <div id="page-wrap">
     <header>
       <h1>
         <img src="http://www.mtstore.pl/upscreens/obraz,Wallpaper%20%20i%20love%20music%20by%20Torsten85.jpg" alt="photo"/>
-      
       </h1>
       <nav>
         <ul id="menu">
@@ -39,13 +49,19 @@
           <li><a href="">LINK 4</a></li>
           <li><a href="">LINK 5</a></li>
         </ul>
-        <img src="http://static.fanpage.it/musicfanpage/wp-content/uploads/2012/09/robbie-williams-diventa-un-insolito-angelo-in-candy-300x225.jpg" alt="photo" class="big"/>
-        <img src="http://fioletowomi.streemo.pl/Image/686620_l.jpg" alt="photo" class="big"/>
+        <a href="http://static.fanpage.it/musicfanpage/wp-content/uploads/2012/09/robbie-williams-diventa-un-insolito-angelo-in-candy-300x225.jpg" class="gallery">
+          <img src="http://static.fanpage.it/musicfanpage/wp-content/uploads/2012/09/robbie-williams-diventa-un-insolito-angelo-in-candy-300x225.jpg" alt="photo" class="big"/>
+        </a>
+        <a class="gallery" href="http://fioletowomi.streemo.pl/Image/686620_l.jpg">
+          <img src="http://fioletowomi.streemo.pl/Image/686620_l.jpg" alt="photo" class="big"/>
+        </a>
       </div>
       <div class="clear"></div>
       <div class="previews">
         <section>
-          <img src="http://style.mtv.com//wp-content/uploads/style/2012/08/psy-gangnam-style-1.jpg" alt="photo"/>
+          <a class="gallery" href="http://style.mtv.com//wp-content/uploads/style/2012/08/psy-gangnam-style-1.jpg">
+            <img src="http://style.mtv.com//wp-content/uploads/style/2012/08/psy-gangnam-style-1.jpg" alt="photo"/>
+          </a>
           <div>
             <h3>Najpopularniejsze</h3>
             <p>To są najpopularniejsze gwiazdy tego miesiąca</p>
@@ -53,14 +69,18 @@
           </div>
         </section>
         <section>
-          <img src="http://i.pinger.pl/pgr208/37af162e000305af4d4dc4c5/Lykke+Li.png" alt="photo"/>
+          <a class="gallery" href="http://i.pinger.pl/pgr208/37af162e000305af4d4dc4c5/Lykke+Li.png">
+            <img src="http://i.pinger.pl/pgr208/37af162e000305af4d4dc4c5/Lykke+Li.png" alt="photo"/>
+          </a>
           <div>
             <h3>Polecamy</h3>
             <a href="#">Zobacz więcej</a>
           </div>
         </section>
         <section>
-          <img src="http://www.fakt.pl/m/Repozytorium.Obiekt.aspx/-650/-550/faktonline/634794237995753125.jpg" alt="photo"/>
+          <a class="gallery" href="http://www.fakt.pl/m/Repozytorium.Obiekt.aspx/-650/-550/faktonline/634794237995753125.jpg">
+            <img src="http://www.fakt.pl/m/Repozytorium.Obiekt.aspx/-650/-550/faktonline/634794237995753125.jpg" alt="photo"/>
+          </a>
           <div>
             <h3>Odkryj nowe gwiazdy</h3>
             <a href="#">Zobacz więcej</a>

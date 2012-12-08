@@ -3,9 +3,18 @@
 <head>
   <title>Harry Potter</title>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-  <link href="kot.jpg" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/png" href="data/favicon.png" />
   <link rel="stylesheet" href="style.css" type="text/css"/>
+  <link rel="stylesheet" type="text/css" href="jquery-lightbox-0.5/css/jquery.lightbox-0.5.css" media="screen" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery-lightbox-0.5/js/jquery.lightbox-0.5.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(function() {
+         $('a.gallery').lightBox({fixedNavigation:true});
+      });
+    });
+  </script>
 </head>
 
 <body class="preview">
@@ -57,11 +66,17 @@
         </p>
       </section>
       <aside>
-        <img src="data/HermioneGranger.jpg" alt="hermiona" width="200"/>
+        <a class="gallery" href="data/HermioneGranger.jpg">
+          <img src="data/HermioneGranger.jpg" alt="hermiona" width="200"/>
+        </a>
         <p><a href="#">kup ten produkt za 10 $</a></p>
         <div class="more">
-          <img src="http://images3.wikia.nocookie.net/__cb20110723124244/harrypotter/pl/images/f/fc/Rhg.jpg" alt="kitty" class="small" />
-          <img src="http://placekitten.com/60/40" alt="kitty"/>
+          <a class="gallery" href="http://images3.wikia.nocookie.net/__cb20110723124244/harrypotter/pl/images/f/fc/Rhg.jpg">
+            <img src="http://images3.wikia.nocookie.net/__cb20110723124244/harrypotter/pl/images/f/fc/Rhg.jpg" alt="kitty" class="small" />
+          </a>
+          <a class="gallery" href="http://placekitten.com/600/400">
+            <img src="http://placekitten.com/60/40" alt="kitty"/>
+          </a>
           <img src="http://placekitten.com/60/40" alt="kitty"/>
         </div>
         <a href="#">zobacz więcej produktow</a>

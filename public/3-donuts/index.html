@@ -6,6 +6,16 @@
   <link href="http://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/png" href="data/favicon.png" />
   <link rel="stylesheet" href="style.css" type="text/css"/>
+  <link rel="stylesheet" type="text/css" href="jquery-lightbox-0.5/css/jquery.lightbox-0.5.css" media="screen" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery-lightbox-0.5/js/jquery.lightbox-0.5.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(function() {
+         $('.page-wrap a.gallery').lightBox({fixedNavigation:true});
+      });
+    });
+  </script>
 </head>
 <body class="preview">
   <header>
@@ -46,7 +56,9 @@
     <section>
       <div>
         <h2> Donut of the day </h2>
-        <img id="donat"src="obrazki/Donat10.jpg" alt="obrazki"/>
+        <a class="gallery" href="obrazki/Donat10.jpg">
+          <img id="donat"src="obrazki/Donat10.jpg" alt="obrazki"/>
+        </a>
       </div>
     </section>
     <section>
@@ -62,12 +74,16 @@ Zapraszamy do zakupu internetowego jak i telefonicznego. Smak naszych donatów j
     <div class="clear"></div>
     <section>
       <h2>Set of the day</h2>
-      <img src="obrazki/Donat_Picie.jpg" alt="obrazki"/>
+      <a class="gallery" href="obrazki/Donat_Picie.jpg">
+        <img src="obrazki/Donat_Picie.jpg" alt="obrazki"/>
+      </a>
     </section>
     <section>
       <form>
         <h2>Best muffin</h2>
-        <img id="donat"src="obrazki/Donat4.jpg" alt="obrazki"/>
+        <a class="gallery" href="obrazki/Donat4.jpg">
+          <img id="donat"src="obrazki/Donat4.jpg" alt="obrazki"/>
+        </a>
         <div class="clear"></div>
         <div>
           <ul>

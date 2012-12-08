@@ -6,6 +6,16 @@
   <link href="http://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/png" href="data/favicon.png" />
   <link rel="stylesheet" href="style.css" type="text/css"/>
+  <link rel="stylesheet" type="text/css" href="jquery-lightbox-0.5/css/jquery.lightbox-0.5.css" media="screen" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery-lightbox-0.5/js/jquery.lightbox-0.5.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(function() {
+         $('a.gallery').lightBox({fixedNavigation:true});
+      });
+    });
+  </script>
 </head>
 
 <body class="preview">
@@ -65,11 +75,21 @@
       </aside>
       <section class="right">
         <h2>Najnowsze zdjęcia</h2>
-        <img src="http://placekitten.com/150/150" alt="photo"/>
-        <img src="download/DSC06718.JPG" alt="photo"/>
-        <img src="zdjecia/P1030243.JPG" alt="photo"/>
-        <img src="zdjecia/DSCN2797.JPG" alt="photo"/>
-        <img src="download/SkyLantern.jpg" alt="photo"/>
+        <a class="gallery" href="http://placekitten.com/550/550">
+          <img src="http://placekitten.com/150/150" alt="photo"/>
+        </a>
+        <a class="gallery" href="download/DSC06718.JPG">
+          <img src="download/DSC06718.JPG" alt="photo"/>
+        </a>
+        <a class="gallery" href="zdjecia/P1030243.JPG">
+          <img src="zdjecia/P1030243.JPG" alt="photo"/>
+        </a>
+        <a class="gallery" href="zdjecia/DSCN2797.JPG">
+          <img src="zdjecia/DSCN2797.JPG" alt="photo"/>
+        </a>
+        <a class="gallery" href="download/SkyLantern.jpg">
+          <img src="download/SkyLantern.jpg" alt="photo"/>
+        </a>
         <img src="download/DSC06388.JPG" alt="photo"/>
       </section>
       <div class="clear"></div>
@@ -78,7 +98,7 @@
           Jesteśmy czterema koleżankami zafascynowanymi fotografią. Nasze zdjęcia mają różną tematykę: zwierzęta, krajobrazy, rośliny, portrety i wiele innych. Podobają Wam się??? Udostępniajcie na facebook'u i polecajcie znajomym. :)
         </p>
         <p>
-          
+
         </p>
       </section>
       <div class="latest">
