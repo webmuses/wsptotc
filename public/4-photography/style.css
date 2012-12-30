@@ -1,7 +1,7 @@
 /* General */
 
 * {
-  margin: 0;
+  margin-top: 15;
   padding: 0;
 }
 
@@ -185,6 +185,7 @@ section img {
 .latest {
   margin-bottom: 20px;
   margin-top: 30px;
+  text-align: center;
 }
 
 .latest img {
@@ -201,3 +202,7 @@ footer, footer img {
   padding: 0;
   height: 100px;
 }
+
+#hahaha
+{height: 200px;
+width: 960px;}

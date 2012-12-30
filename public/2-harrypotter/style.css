@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Lato', Helvetica Neue, sans-serif;
-  background: #D4A017;
+  background: #336666;
   padding: 0;
   margin: 0;
 }
@@ -17,7 +17,7 @@ body {
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
-  background: #fff;
+  background: #336666;
 }
 
 .clear {
@@ -34,12 +34,11 @@ header {
 
 header h1 {
   float: left;
-  width: 400px;
+  width: 300px;
   margin: 0;
 }
 
 header h1 img {
-  width: 400px;
   height: 200px;
 }
 
@@ -47,7 +46,8 @@ header h1 img {
 
 header form {
   float: right;
-  width: 400px;
+  width: 450px;
+  margin-top: 8px;
 }
 
 input[type='submit'] {
@@ -57,7 +57,6 @@ input[type='submit'] {
   height: 22px;
   border: 0;
   color: #ffffff;
-  margin-top: 8px;
 }
 
 input[type='text'], input[type='password'] {
@@ -66,6 +65,7 @@ input[type='text'], input[type='password'] {
 
 label {
   margin-right: 2px;
+  color:black;
 }
 
 header input + label {
@@ -90,7 +90,6 @@ ul#menu li {
 
 ul#menu li a {
   display: block;
-  float: left;
   width: 100%;
   line-height: 40px;
   height: 40px;
@@ -118,7 +117,7 @@ section {
   width: 540px;
   padding: 10px;
   float: left;
-  color: blue;
+  color: white;
 }
 
 section h2 {
@@ -134,6 +133,7 @@ section img {
 section p {
   margin-bottom: 10px;
   line-height: 20px;
+  font-size: 14px;
 }
 
 /* Sidebar */
@@ -156,9 +156,9 @@ aside div {
 aside img {
   border: 1px solid #B22222;
   padding: 10px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: px;
 }
 
 aside ul {

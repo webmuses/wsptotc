@@ -13,7 +13,7 @@ body {
   overflow: hidden;
   width: 1000px;
   margin: 0 auto;
-  background: #ff8080;
+  background: light grey;
 }
 
 .clear {
@@ -79,10 +79,6 @@ label {
 }
 
 /* Main menu */
-
-nav {
-  border-top: 5px solid #F21B07;
-}
 
 nav ul#menu {
   font-size: 14px;
@@ -228,4 +224,9 @@ footer, footer img {
 .text p {
   margin-bottom: 10px;
   line-height: 20px;
+}
+#humnista{
+margin-left: 500px;
+width='250'
+height=''200
 }

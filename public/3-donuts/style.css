@@ -168,7 +168,10 @@ footer, footer img {
   margin: 0;
   padding: 0;
   height: 100px;
+  background-color: lightpink;
+  text-align: middle;
 }
+
 
 #donat{
   width: 400px;
@@ -178,4 +181,19 @@ footer, footer img {
 
   background: pink;
   
+}
+
+#cos {
+  margin-left: 5%;
+}
+
+.best {
+border: 3px solid lightpink;
+background-color: lightpink;
+margin-left: 30%;
+
+}
+
+#cos {
+  margin-right: 200px;
 }
