@@ -26,28 +26,30 @@ body {
 
 /* Header */
 
-header {
+.header {
   padding: 20px;
   margin: 0;
   clear: both;
 }
 
-header h1 {
+.header h1 {
   float: left;
   width: 290px;
   margin: 0;
 }
 
-header h1 img {
-  width: 290px;
+.header h1 img {
+  width: 650px;
   height: 100px;
+  float: left;
 }
 
 /* Login form */
 
-header form {
+.header form {
   float: right;
-  width: 400px;
+  width: 180px;
+  text-align: right;
 }
 
 input[type='submit'] {
@@ -68,13 +70,13 @@ label {
   margin-right: 2px;
 }
 
-header input + label {
+.header input + label {
   margin-left: 6px;
 }
 
 /* Main menu */
 
-nav ul#menu {
+.nav ul#menu {
   font-size:14px;
   text-align:center;
   height: 40px;
@@ -113,41 +115,41 @@ nav ul#menu li.active a, nav ul#menu li a:hover {
 
 /* Main */
 
-section {
+.section {
   width: 540px;
   padding: 10px;
   float: left;
 }
 
-section h2 {
+.section h2 {
   margin-left: 24px;
 }
 
-section img {
+.section img {
   width: 220px;
   margin-right: 10px;
   float: left;
 }
 
-section p {
+.section p {
   margin-bottom: 10px;
   line-height: 20px;
 }
 
 /* Sidebar */
 
-aside {
+.aside {
   margin-top: 10px;
   text-align: center;
   float: right;
   width: 300px;
 }
 
-aside div {
+.aside div {
   padding: 10px;
 }
 
-aside img {
+.aside img {
   border: 1px solid #B22222;
   padding: 10px;
   -webkit-border-radius: 5px;
@@ -155,13 +157,13 @@ aside img {
   border-radius: 5px;
 }
 
-aside ul {
+.aside ul {
   list-style: none;
   text-align: left;
   margin-left: 60px;
 }
 
-aside ul li {
+.aside ul li {
   margin-top: 10px;
 }
 
@@ -172,7 +174,7 @@ aside ul li {
 
 /* Footer */
 
-footer, footer img {
+.footer, .footer img {
   margin: 0;
   padding: 0;
   height: 100px;
