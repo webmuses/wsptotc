@@ -25,13 +25,13 @@ body {
 
 /* Header */
 
-header {
+.header {
   padding: 20px;
   margin: 0;
   clear: both;
 }
 
-header h1 {
+.header h1 {
   float: left;
   width: 290px;
   margin: 0;
@@ -39,19 +39,19 @@ header h1 {
 
 /* Main menu */
 
-nav ul#menu {
+.nav ul#menu {
   margin: 0;
   font-size:14px;
   text-align:center;
   height: 40px;
-  float: right;
   list-style: none;
   padding: 0;
+  margin-left: 20px;
 }
 
 ul#menu li {
   float: left;
-  width: 150px;
+  width: 240px;
 }
 
 ul#menu li a {
@@ -66,16 +66,16 @@ ul#menu li a {
   border: 1px solid #B22222;
 }
 
-nav ul#menu li.active a, nav ul#menu li a:hover {
+.nav ul#menu li.active a, .nav ul#menu li a:hover {
   background: #B22222;
 }
 
 /* Login form */
 
-header form {
+.header form {
+  text-align: right;
   float: right;
-  width: 400px;
-  margin-top: 40px;
+  width: 180px;
 }
 
 input[type='submit'] {
@@ -96,7 +96,7 @@ label {
   margin-right: 2px;
 }
 
-header input + label {
+.header input + label {
   margin-left: 6px;
 }
 
@@ -104,21 +104,9 @@ header input + label {
 
 #content {
  padding: 20px;
- margin-top: 55px;
  clear: both;
 }
 
-/* Top content */
-
-.top-places {
-  height: 248px;
-  border-bottom: 5px solid #AF2B26;
-  padding-bottom: 40px;
-}
-
-.big {
-  margin-left: 70px;
-}
 
 /* Lists (i.e. links) */
 
@@ -136,7 +124,7 @@ header input + label {
 
 /* Sidebar */
 
-aside {
+.aside {
   margin-top: 60px;
   height: 380px;
   text-align: center;
@@ -161,40 +149,30 @@ aside h4 {
 /* Previews */
 
 .previews {
-  margin-top: 10px;
   padding-bottom: 40px;
   float: left;
-  width:  700px;
+  width: 650px;
 }
 
-section {
-  width: 350px;
+.section {
+  border-bottom: 1px solid #ccc;
   padding: 10px 0;
-  float: left;
   margin: 0;
-  margin-top: 40px;
-  height: 180px;
 }
 
-section h3 {
+.section h3 {
   margin-bottom: 10px;
 }
 
-section div {
-  float: left;
-  width: 180px;
-}
 
-section img {
+.section img {
   margin-right: 10px;
-  float: left;
-  width: 150px;
   height: 150px;
 }
 
 /* Footer */
 
-footer, footer img {
+.footer, .footer img {
   margin: 0;
   padding: 0;
   height: 100px;
