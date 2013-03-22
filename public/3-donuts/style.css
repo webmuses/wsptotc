@@ -25,41 +25,36 @@ body {
 
 /* Header */
 
-header {
+.header {
   margin: 0;
   clear: both;
 }
 
-header div.top {
+.header div.top {
   background: #FFC3CE;
   padding: 20px;
   height: 100px;
 }
 
-header div.top p {
+.header div.top p {
   width: 300px;
   float: left;
 }
 
-header div.top div {
+.header div.top div {
   width: 1000px;
   margin: 0 auto;
 }
 
-header h1 {
+.header h1 {
   float: left;
-  width: 290px;
+  width: 600px;
   margin: 0;
-}
-
-header h1 img {
-  width: 290px;
-  height: 100px;
 }
 
 /* Login form */
 
-header form {
+.header form {
   float: right;
   width: 200px;
   text-align: right;
@@ -85,7 +80,7 @@ label {
 
 /* Main menu */
 
-nav ul#menu {
+.nav ul#menu {
   font-size:14px;
   text-align:center;
   height: 40px;
@@ -114,7 +109,7 @@ ul#menu li a {
   border: 1px solid #999;
 }
 
-nav ul#menu li.active a, nav ul#menu li a:hover {
+.nav ul#menu li.active a, .nav ul#menu li a:hover {
   background: #FFF7EF;
 }
 
@@ -125,47 +120,47 @@ nav ul#menu li.active a, nav ul#menu li a:hover {
  clear: both;
 }
 
-section {
+.section {
   padding: 10px;
   margin-bottom: 40px;
   width: 480px;
   float: left;
 }
 
-section form {
+.section form {
   margin-left: 50px;
 }
 
-section h2 {
+.section h2 {
   margin-left: 24px;
   margin-bottom: 20px;
 }
 
-section img {
+.section img {
   float: left;
 }
 
-section p:first-of-type {
+.section p:first-of-type {
   margin-top: 45px;
 }
 
-section  p {
+.section  p {
   margin-top: 10px;
   line-height: 20px;
 }
 
-section  li {
+.section  li {
   margin-top: 20px;
 }
 
-section ul {
+.section ul {
   list-style: none;
   text-align: left;
 }
 
 /* Footer */
 
-footer, footer img {
+.footer, .footer img {
   margin: 0;
   padding: 0;
   height: 100px;
