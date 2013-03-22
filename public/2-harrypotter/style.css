@@ -102,7 +102,7 @@ ul#menu li a {
   border: 1px solid #B22222;
 }
 
-nav ul#menu li.active a, nav ul#menu li a:hover {
+.nav ul#menu li.active a, .nav ul#menu li a:hover {
   background: #B22222;
 }
 
