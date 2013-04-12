@@ -138,6 +138,7 @@ ul#menu li a {
 
 .section img {
   float: left;
+  width: 400px;
 }
 
 .section p:first-of-type {
@@ -163,5 +164,5 @@ ul#menu li a {
 .footer, .footer img {
   margin: 0;
   padding: 0;
-  height: 100px;
+  height: 200px;
 }

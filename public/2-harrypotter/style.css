@@ -39,8 +39,7 @@ body {
 }
 
 .header h1 img {
-  width: 650px;
-  height: 100px;
+  width: 800px;
   float: left;
 }
 
@@ -150,6 +149,7 @@ ul#menu li a {
 }
 
 .aside img {
+  width: 300px;
   border: 1px solid #B22222;
   padding: 10px;
   -webkit-border-radius: 5px;
