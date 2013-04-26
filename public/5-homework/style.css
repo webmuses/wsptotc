@@ -53,6 +53,12 @@ body {
   margin-top: 10px;
 }
 
+form fieldset {
+  border: 0px;
+  float: left;
+  width: 200px;
+}
+
 input[type='submit'] {
   background: rgb(64, 207, 122);
   width: 200px;
@@ -60,7 +66,7 @@ input[type='submit'] {
   border: 2px dashed purple;
   color: #fff;
   float: right;
-  margin-top: 5px;
+  margin-top: 10px;
   font-size: 30px;
   border-radius: 8px;
   margin-bottom: 30px;
