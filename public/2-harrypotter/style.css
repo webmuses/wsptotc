@@ -3,13 +3,15 @@
 * {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 body {
   font-family: 'Lato', Helvetica Neue, sans-serif;
-  background: #D4A017;
+  background: #00000c;
   padding: 0;
   margin: 0;
+
 }
 
 #page-wrap {
@@ -17,7 +19,7 @@ body {
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
-  background: #fff;
+  background: #00000c;
 }
 
 .clear {
@@ -53,16 +55,22 @@ body {
 
 input[type='submit'] {
   float: right;
-  background: #B22222;
+  background: #1111ff;
   width: 60px;
   height: 22px;
   border: 0;
   color: #ffffff;
-  margin-top: 8px;
 }
 
 input[type='text'], input[type='password'] {
-  border: 1px solid #B22222;
+  border: 1px solid #1111ff;
+  font-size: 16px;
+  width: 125px;
+  margin-bottom: 15px;
+}
+
+input[type='password'] {
+  margin-bottom: 3px;
 }
 
 label {
@@ -97,12 +105,12 @@ ul#menu li a {
   height: 40px;
   text-decoration: none;
   color: #ffffff;
-  background: #D4A017;
-  border: 1px solid #B22222;
+  background: #5555ff;
+  border: 1px dotted #3333ff;
 }
 
 .nav ul#menu li.active a, .nav ul#menu li a:hover {
-  background: #B22222;
+  background: #7777ff;
 }
 
 /* Page content */
@@ -150,7 +158,6 @@ ul#menu li a {
 
 .aside img {
   width: 300px;
-  border: 1px solid #B22222;
   padding: 10px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -178,4 +185,12 @@ ul#menu li a {
   margin: 0;
   padding: 0;
   height: 100px;
+}
+
+.footer {
+  display: none;
+}
+
+.poll > li:hover {
+  color: blue;
 }
