@@ -6,6 +6,16 @@
   <link href="http://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/png" href="data/favicon.png" />
   <link rel="stylesheet" href="style.css" type="text/css"/>
+  <link rel="stylesheet" type="text/css" href="jquery-lightbox-0.5/css/jquery.lightbox-0.5.css" media="screen" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery-lightbox-0.5/js/jquery.lightbox-0.5.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(function() {
+         $('a.gallery').lightBox({fixedNavigation:true});
+      });
+    });
+  </script>
 </head>
 
 <body class="preview">
@@ -38,14 +48,16 @@
     <div id="content">
       <div class="section">
         <div class="photo">
-          <img src="http://wiadomosci.monasterujkowice.pl/wp-content/uploads/2010/07/pytajnik.gif" alt="photo" class="pytajnik"/>
+          <a class="gallery" href="pytajnik.gif"><img src="pytajnik.gif" alt="photo" class="pytajnik"/></a>
           <div class="comment">
             <h4>Tresc zadania</h4>
             <p>Ile jest 234+234?.</p>
           </div>
         </div>
         <div class="photo">
-          <img src="http://i.istockimg.com/file_thumbview_approve/5493504/2/stock-illustration-5493504-light-bulb-vector-illustration.jpg" alt="photo" class="bulb"/>
+          <a class="gallery" href="stock-illustration-5493504-light-bulb-vector-illustration.jpg">
+            <img src="stock-illustration-5493504-light-bulb-vector-illustration.jpg" alt="photo" class="bulb"/>
+          </a>
           <div class="comment">
             <h4>Odpowiedz</h4>
             <p> 468</p>
@@ -60,7 +72,7 @@
           <li><a href="#">zadanie z biologii</a></li>
           <li><a href="#">portret</a></li>
           <li><a href="#">lektura 03.04.13</a></li>
-         
+
         </ul>
       </div>
       <div class="clear"></div>
@@ -93,7 +105,7 @@
             </li>
           </ul>
         </form>
-        <img src="http://blogs.ucl.ac.uk/library-archae/files/2013/03/bookworm.jpg" alt="photo" width="200px"/>
+        <a href="bookworm.jpg" class="gallery"><img src="bookworm.jpg" alt="photo" width="200px"/></a>
       </div>
       <div class="clear"></div>
 

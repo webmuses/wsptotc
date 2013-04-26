@@ -4,7 +4,19 @@
   <title>My music = My life</title>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
   <link href="http://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
+  <link rel="icon" type="image/png" href="data/favicon.png" />
   <link rel="stylesheet" href="style.css" type="text/css"/>
+  <link rel="stylesheet" type="text/css" href="jquery-lightbox-0.5/css/jquery.lightbox-0.5.css" media="screen" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery-lightbox-0.5/js/jquery.lightbox-0.5.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(function() {
+         $('a.gallery').lightBox({fixedNavigation:true});
+      });
+    });
+  </script>
+
 </head>
 <body class="preview">
   <div id="page-wrap">
@@ -16,9 +28,9 @@
         <input type="password" name="password" id="password"/>
         <input type="submit" value="Zaloguj"/>
       </form>
-      <img id="logo" src="http://i429.photobucket.com/albums/qq18/pianonoi/JRN451/music-tree.jpg">
+      <img id="logo" src="music-tree.jpg">
       <h1>
-        
+
         My Music = My Life
       </h1>
 
@@ -36,23 +48,23 @@
       <div class="previews">
         <div class="section">
           <h3>Polecane</h3>
-          <img src="http://static.t-mobile-music.pl/data/article/b10e277c915bcff8c489c5d4ef1953b9/30_Seconds_to_Mars_press_002.jpg" alt="photo"/>
+          <img src="30_Seconds_to_Mars_press_002.jpg" alt="photo"/>
           <a href="http://tabs.ultimate-guitar.com/0-9/30_seconds_to_mars/kings_and_queens_tab.htm">30 Seconds to Mars - Kings and Queens (guitar tabs)</a>
           <iframe width="560" height="315" src="http://www.youtube.com/embed/hTMrlHHVx8A" frameborder="0" allowfullscreen></iframe>
-        
+
         </div>
         <div class="section">
           <h3>Popularne</h3>
-          <img src="http://www.noircafe.pl/wp-content/uploads/2012/12/Green-Day2.jpg" alt="photo"/>
+          <img src="Green-Day2.jpg" alt="photo"/>
           <a href="http://tabs.ultimate-guitar.com/g/green_day/american_idiot_crd.htm"> Green Day - American Idiot (guitar chords)</a>
           <iframe width="420" height="315" src="http://www.youtube.com/embed/Ee_uujKuJMI" frameborder="0" allowfullscreen></iframe>
-          
+
         </div>
         <div class="section">
           <h3>Nowe</h3>
-          <img src="http://static.nme.com/images/gallery/MyChemicalRomance2010DC081110.jpg" alt="photo"/>
+          <img src="MyChemicalRomance2010DC081110.jpg" alt="photo"/>
           <a href="http://tabs.ultimate-guitar.com/m/my_chemical_romance/sing_ver3_crd.htm"> My Chemical Romance - Sing (guitar chords)</a>
-          <iframe width="560" height="315" src="http://www.youtube.com/embed/hTgnDLWeeaM" frameborder="0" allowfullscreen></iframe>               
+          <iframe width="560" height="315" src="http://www.youtube.com/embed/hTgnDLWeeaM" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
       <div class="aside">
@@ -61,7 +73,7 @@
           <li>22.06 - Paul McCartney - Warszawa, Stadion Narodowy</li>
      </ul></p>
         <form class="poll">
-          
+
           <ul>
             <li>
               <h4 id="artysta">Ulubiony artysta</h4>
@@ -91,7 +103,7 @@
       <div class="clear"></div>
     </div>
     <div class="footer">
-      
+
     </div>
   </div>
 </body>
