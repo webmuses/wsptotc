@@ -5,7 +5,7 @@
 
 body {
   font-family: "Lato", Helvetica Neue, sans-serif;
-  background: #999999;
+  background: rgb(100, 255, 10);
   padding: 0;
   margin: 0;
 }
@@ -14,7 +14,7 @@ body {
   overflow: hidden;
   width: 1000px;
   margin: 0 auto;
-  background: #fff;
+  background: rgb(200, 236, 9);
 }
 
 .clear {
@@ -40,6 +40,8 @@ body {
   float: left;
   margin-bottom: 20px;
   margin-left: 20px;
+  color: rgb(138, 69, 202);
+  font-size: 70px;
 }
 
 /* Login form */
@@ -52,13 +54,16 @@ body {
 }
 
 input[type='submit'] {
-  background: #999999;
-  width: 50px;
-  height: 20px;
-  border: 0;
+  background: rgb(64, 207, 122);
+  width: 200px;
+  height: 40px;
+  border: 2px dashed purple;
   color: #fff;
   float: right;
   margin-top: 5px;
+  font-size: 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
 }
 
 input[type='text'], input[type='password'] {
@@ -67,7 +72,8 @@ input[type='text'], input[type='password'] {
 }
 
 label {
-  margin-right: 3px;
+  margin-right: 10px;
+  font-size: 20px
 }
 
 /* Main menu */
@@ -98,19 +104,19 @@ ul#menu li a {
   height: 45px;
   text-decoration: none;
   color: #ffffff;
-  background: #ccc;
+  background: rgb(247, 144, 144);
   border: 1px solid #999999;
 }
 
 .nav ul#menu li.active a, .nav ul#menu li a:hover {
-  background: #999999;
+  background: #FF0066;
 }
 
 /* Sidebar */
 
 .aside {
   text-align: center;
-  float: right;
+  float: left;
   width: 230px;
   margin-bottom: 20px;
 }
@@ -128,18 +134,18 @@ ul#menu li a {
 
 .aside ul li {
   padding: 10px;
-  background: #999;
+  background: rgb(73, 218, 28);
 }
 
 .aside ul li:nth-child(2n) {
-  background: #ccc;
+  background: rgb(59, 163, 92);
 }
 
 /* Main content */
 
 .section {
   width: 700px;
-  float: left;
+  float: right;
 }
 
 .section h2 {
@@ -158,13 +164,14 @@ ul#menu li a {
 }
 
 .section div.comment h4 {
-  background: #ccc;
+  background: rgb(76, 225, 245);
   margin-bottom: 0;
   padding: 4px 8px;
 }
 
 .section div.comment p {
-  background: #ddd;
+  background: rgb(17, 54, 131);
+  color:white;
   margin: 0;
   padding: 10px 8px;
 }
@@ -184,9 +191,9 @@ ul#menu li a {
 /* Poll */
 
 .poll {
-  float: right;
+  float: left;
   width: 210px;
-  background: #ccc;
+  background: rgb(50, 107, 207);
   margin-bottom: 20px;
   padding: 20px;
 }
@@ -220,4 +227,15 @@ ul#menu li a {
 .text p {
   margin-bottom: 10px;
   line-height: 20px;
+}
+
+.bulb {
+  width: 280px;
+}
+.komentarze {
+  float: right;
+}
+
+.pytajnik {
+  height: 253px;
 }

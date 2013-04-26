@@ -31,9 +31,9 @@ body {
 }
 
 .header div.top {
-  background: #FFC3CE;
+  background: #9999FF;
   padding: 20px;
-  height: 100px;
+  height: 200px;
 }
 
 .header div.top p {
@@ -60,13 +60,18 @@ body {
   text-align: right;
 }
 
-input[type='submit'] {
-  background: #999999;
+#loguj {
+  background: #6600CC;
   width: 60px;
   height: 22px;
   border: 0;
   color: #fff;
   margin-top: 5px;
+  border-radius: 3px; 
+}
+
+#loguj:hover {
+  background-color: #9933FF;
 }
 
 input[type='text'], input[type='password'] {
@@ -104,9 +109,9 @@ ul#menu li a {
   line-height: 40px;
   height: 40px;
   text-decoration: none;
-  color: #444;
-  background: #FFC3CE;
-  border: 1px solid #999;
+  color: #6600CC;
+  background: #9999FF;
+  border: 1px solid #6600CC;
 }
 
 .nav ul#menu li.active a, .nav ul#menu li a:hover {
@@ -114,6 +119,18 @@ ul#menu li a {
 }
 
 /* Page content */
+#banner img{
+  width: 300px;
+  border-radius: 50px 10px;
+  float: left;
+}
+
+#banner p {
+  color: #6600CC;
+  float: right;
+  margin-left: 50px;
+  width: auto;#6600CC
+}
 
 #content {
  padding: 20px;
@@ -134,11 +151,13 @@ ul#menu li a {
 .section h2 {
   margin-left: 24px;
   margin-bottom: 20px;
+  color: #9933FF;
 }
 
 .section img {
   float: left;
   width: 400px;
+  border-radius: 8px;
 }
 
 .section p:first-of-type {
@@ -161,8 +180,13 @@ ul#menu li a {
 
 /* Footer */
 
-.footer, .footer img {
+.footer {
   margin: 0;
   padding: 0;
-  height: 200px;
+  height: 20px;
+  width:100%;
+  background-color: #9999FF;
+}
+.footer p {
+  text-align: center;
 }
