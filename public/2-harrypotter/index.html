@@ -6,12 +6,22 @@
   <link href="http://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/png" href="data/favicon.png" />
   <link rel="stylesheet" href="style.css" type="text/css"/>
+  <link rel="stylesheet" type="text/css" href="jquery-lightbox-0.5/css/jquery.lightbox-0.5.css" media="screen" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery-lightbox-0.5/js/jquery.lightbox-0.5.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(function() {
+         $('a.gallery').lightBox({fixedNavigation:true});
+      });
+    });
+  </script>
 </head>
 
 <body class="preview">
   <div id="page-wrap">
     <div class="header">
-      <h1><img src="http://images6.fanpop.com/image/photos/32900000/HP-characters-harry-potter-32990476-1024-768.jpg" alt="logo"/></h1>
+      <h1><img src="HP-characters-harry-potter-32990476-1024-768.jpg" alt="logo"/></h1>
       <form>
         <label for="login">Login</label>
         <input type="text" name="login" id="login"/>
@@ -34,13 +44,13 @@
     <div class="clear"></div>
     <div id="content">
       <div class="section">
-        <img src="http://images.fanpop.com/images/image_uploads/The-Trio-harry-potter-213640_1024_768.jpg" alt="logo"/>
+        <img src="The-Trio-harry-potter-213640_1024_768.jpg" alt="logo"/>
         <p>Witajcie na stronie poświęconej książkom i filmom o
 
         </p>
       </div>
       <div class="aside">
-        <img src="http://images2.fanpop.com/images/photos/7100000/Trio-pictures-harry-potter-7110587-2500-1663.jpg" alt="logo"/>
+        <img src="Trio-pictures-harry-potter-7110587-2500-1663.jpg" alt="logo"/>
 
         <div class="more">
 
