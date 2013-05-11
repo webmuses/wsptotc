@@ -12,10 +12,51 @@
   <script>
     $(document).ready(function() {
       $(function() {
-         $('a.gallery').lightBox({fixedNavigation:true});
+        $('a.gallery').lightBox({fixedNavigation:true});
+        
+       
+
+        $("a.bialy").click(function(e) {
+        e.preventDefault();
+        $("div#content").css("background", "white");
+        });
+
+        $("a.czarny").click(function(e) {
+        e.preventDefault();
+        $("div#content").css("background", "black");
+        $("div.section").css("background", "white");
+        });
+        $("a.czerwony").click(function(e) {
+        e.preventDefault();
+        $("div#content").css("background", "red");
+        });
+
+        $("a.mat").click(function(e) {
+        e.preventDefault();
+        alert("to wcale nie jest takie trudne,możesz to zrobić sam!")
+        });
+         $("a.wyp").click(function(e) {
+        e.preventDefault();
+        alert("Nie przepisuj z błędami!")
+        });
+          $("a.zadzbio").click(function(e) {
+        e.preventDefault();
+        alert("Chroń środowisko, nie zabijaj zwierząt!")
+        });
+          $("a.port").click(function(e) {
+        e.preventDefault();
+        alert("Nie martw się jak Ci wyjdzie karykatura!")
+        });
+           $("a.lek").click(function(e) {
+        e.preventDefault();
+        alert("Nie męcz się, przeczytaj streszczenie zamiast książki!")
+        });
+      
+       
       });
     });
   </script>
+
 </head>
 
 <body class="preview">
@@ -30,9 +71,15 @@
           <label for="password">Hasło</label>
           <input type="password" name="password" id="password"/>
         </fieldset>
+        <input type="submit" value="Zarejestruj się"/>
         <input type="submit" value="Zaloguj"/>
       </form>
       <div class="clear"></div>
+      
+      <a href="#" class="bialy"><div class="white"></div></a>
+      <a href="#" class="czarny"><div class="black"></div></a>
+      <a href="#" class="czerwony"><div class="red"></div></a>
+      
       <div class="nav">
         <ul id="menu">
           <li class="active"><a href="#">Home</a></li>
@@ -43,6 +90,7 @@
       </div>
     </div>
     <div id="content">
+   
       <div class="section">
         <div class="photo">
           <a class="gallery" href="pytajnik.gif"><img src="pytajnik.gif" alt="photo" class="pytajnik"/></a>
@@ -64,11 +112,11 @@
       <div class="aside">
         <h2>Najnowsze zadania</h2>
         <ul>
-          <li><a href="#">matematyka</a></li>
-          <li><a href="#">wypracowanie</a></li>
-          <li><a href="#">zadanie z biologii</a></li>
-          <li><a href="#">portret</a></li>
-          <li><a href="#">lektura 03.04.13</a></li>
+          <li><a href="#" class="mat">matematyka</a></li>
+          <li><a href="#" class="wyp">wypracowanie</a></li>
+          <li><a href="#" class="zadzbio">zadanie z biologii</a></li>
+          <li><a href="#" class="port">portret</a></li>
+          <li><a href="#" class="lek">lektura 03.04.13</a></li>
 
         </ul>
       </div>
@@ -101,6 +149,7 @@
               <label for="last">Nie</label>
             </li>
           </ul>
+          <input type="submit" value="Głosuj"/>
         </form>
         <a href="bookworm.jpg" class="gallery"><img src="bookworm.jpg" alt="photo" width="200px"/></a>
       </div>
