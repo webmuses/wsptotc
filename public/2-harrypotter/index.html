@@ -7,12 +7,15 @@
   <link rel="icon" type="image/png" href="data/favicon.png" />
   <link rel="stylesheet" href="style.css" type="text/css"/>
   <link rel="stylesheet" type="text/css" href="jquery-lightbox-0.5/css/jquery.lightbox-0.5.css" media="screen" />
+
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script type="text/javascript" src="jquery-lightbox-0.5/js/jquery.lightbox-0.5.js"></script>
   <script>
     $(document).ready(function() {
       $(function() {
-         $('a.gallery').lightBox({fixedNavigation:true});
+         $('.zdjecie a').lightBox({fixedNavigation:true});
+         
+         alert("Giń! Avada kedavra!")
       });
     });
   </script>
@@ -21,7 +24,8 @@
 <body class="preview">
   <div id="page-wrap">
     <div class="header">
-      <h1><img src="HP-characters-harry-potter-32990476-1024-768.jpg" alt="logo"/></h1>
+      <h1>
+        <div class="zdjecie"><a href="HP-characters-harry-potter-32990476-1024-768.jpg"><img class="zdjecie" src="HP-characters-harry-potter-32990476-1024-768.jpg" alt="logo"/></a></div></h1>
       <form>
         <label for="login">Login</label>
         <input type="text" name="login" id="login"/>
@@ -44,16 +48,20 @@
     <div class="clear"></div>
     <div id="content">
       <div class="section">
-        <img src="The-Trio-harry-potter-213640_1024_768.jpg" alt="logo"/>
-        <p>Witajcie na stronie poświęconej książkom i filmom o
+        <div class="zdjecie">
+        <a href= "The-Trio-harry-potter-213640_1024_768.jpg"><img class="zdjecie" src="The-Trio-harry-potter-213640_1024_768.jpg" alt="logo"/></a></div>
+        <p><b>Harry Potter</b> – seria siedmiu książek fantastycznych autorstwa brytyjskiej pisarki Joanne Kathleen Rowling.
+Seria Harry Potter opisuje przygody młodego czarodzieja, którego rodzice zginęli, gdy był jeszcze dzieckiem. Harry wraz z swoimi przyjaciółmi poznaje przez sześć lat tajniki magii w Szkole Magii i Czarodziejstwa Hogwart. Akcja ostatniego tomu dzieje się po przerwaniu nauki przez bohatera. W epilogu tej części przedstawione są wydarzenia dziejące się 19 lat po zakończeniu akcji książki.
+Pierwsza książka, Harry Potter i Kamień Filozoficzny, wydana została w 1997 (w Polsce 2000), jej akcja rozgrywa się w roku szkolnym 1991/1992.
 
         </p>
       </div>
       <div class="aside">
-        <img src="Trio-pictures-harry-potter-7110587-2500-1663.jpg" alt="logo"/>
-
+        <div class="zdjecie">
+        <a href="Trio-pictures-harry-potter-7110587-2500-1663.jpg"><img class="zdjecie" src="Trio-pictures-harry-potter-7110587-2500-1663.jpg" alt="logo"/></a>
+      </div>
+        <iframe width="300" height="200" src="http://www.youtube.com/embed/ruivuuSqkQE" frameborder="0" allowfullscreen></iframe>
         <div class="more">
-
 
         </div>
 
