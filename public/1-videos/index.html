@@ -9,13 +9,24 @@
   <link rel="stylesheet" type="text/css" href="jquery-lightbox-0.5/css/jquery.lightbox-0.5.css" media="screen" />
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script type="text/javascript" src="jquery-lightbox-0.5/js/jquery.lightbox-0.5.js"></script>
+   <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+   <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
   <script>
     $(document).ready(function() {
       $(function() {
          $('a.gallery').lightBox({fixedNavigation:true});
+    $( "#koncerty" ).datepicker({onSelect: function(d,i) { alert('Blablabla'); }});
+      
+    
       });
     });
   </script>
+  <script>
+  $(function() {
+  
+  });
+  </script>
+
 
 </head>
 <body class="preview">
@@ -71,7 +82,8 @@
         </div>
       </div>
       <div class="aside">
-        <h4>NOWOŚCI KONCERTOWE</h4>
+        <h4 id="nowosci">NOWOŚCI KONCERTOWE</h4>
+        <div id="koncerty"></div>
         <p><ul><li>4-5.06 - IMPACT FEST - zagrają m.in: Rammstein, Paramore i 30 Seconds to Mars - Warszawa, Lotnisko Bemowo</li>
           <li>22.06 - Paul McCartney - Warszawa, Stadion Narodowy</li>
      </ul></p>

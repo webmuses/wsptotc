@@ -64,11 +64,11 @@ ul#menu li a {
   text-decoration: none;
   color: #ffffff;
   background: #999;
-  border: 1px solid #800000;
+  border: 1px solid #00BFFF;
 }
 
 .nav ul#menu li.active a, .nav ul#menu li a:hover {
-  background: #800000;
+  background: #00BFFF;
 }
 
 /* Login form */
@@ -98,13 +98,13 @@ label {
 }
 
 .header input + label {
-  margin-left: 6px;
+  margin-left: 0px;
 }
 
 /* Page content */
 
 #content {
- padding: 20px;
+ padding: 0px;
  background: #D3D3D3
 }
 
@@ -127,15 +127,15 @@ label {
 
 .aside {
   margin-top: 60px;
-  height: 450px;
+  height: 700px;
   text-align:;
   float:right;
-  width: 230px;
-  padding: 10px 10px 0;
+  width: 275px;
+  padding: 5px 5px 0;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  background: #800000;
+  background: #00BFFF;
   padding-left: 40px
 }
 
@@ -183,11 +183,15 @@ label {
   margin: 0;
   padding: 0;
   height: 100px;
-  background-color: #800000
+  background-color: #00BFFF
 }
 
 #logo img {
   height: 250px;
   float: left;
   margin-bottom: 10px;
+  
+}
+#koncerty{
+  margin-left:-30px;
 }
